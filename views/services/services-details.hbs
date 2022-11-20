@@ -1,0 +1,11 @@
+<div class="container">
+    <h2>Conocé {{services.company}}</h2>
+    <p>{{celebrity.description}}</p>
+    <p>{{celebrity.contactInfo}}</p>
+    <p>{{celebrity.owner}}</p>
+    <a href="/services/{{service._id}}/edit">Edit {{service.company}}</a>
+    <form action="/services/{{service._id}}/delete" method="POST">
+        <button type="submit">Delete {{service.name}}</button>
+    </form>
+    <a href="/services">Volver a todos los Servicios</a>
+</div>

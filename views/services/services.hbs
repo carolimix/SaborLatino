@@ -1,0 +1,7 @@
+<h2>Todos los Servicios</h2>
+{{#each services}}
+	<h4>{{services.company}}</h4>
+	<h4>{{services.description}}</h4>
+    <h4>{{services.contactInfo}}</h4>
+	<a href="/services/{{_id}}/delete">Borrar este Servicio 🗑</a>
+{{/each}}
